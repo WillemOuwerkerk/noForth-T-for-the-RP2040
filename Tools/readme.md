@@ -10,7 +10,7 @@ This is a small tutorial on how to [start with the PIO](https://home.hccnet.nl/a
 - [****PIO-ready****](PIO-ready/) ; Pre compiled, so ready to use PIO examples
 - [****pico-mirrored.f****](pico-mirrored.f) ; Little text output demo
 - [****print-cfg.f****](print-cfg.f) ; Show current noForth t configuration
-- [****noForth-t-asm-dec2025.f****](noForth-t-asm-dec2025.f) ; RP2040 assembler for noForth t 
+- [****noForth-t-asm-dec2025.f****](noForth-t-asm-dec2025.f) ; RP2040 assembler for noForth t with [documentation](https://home.hccnet.nl/anij/nof/t/rp2040%20asm%20notation%20dec2025.pdf)
 - [****noforth-t-asm-ext.f****](noforth-t-asm-ext.f) ; Less used RP2040 assembler opcodes for noForth t 
 - [****commacode-t.f****](commacode-t.f) ; Generating assembler less machine code, read the [documentation](commacode-for-noforth-t.pdf)
 - [****noforth-T-more-words.f****](noforth-T-more-words.f) ; More standard words for noForth t
