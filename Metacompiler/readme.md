@@ -21,9 +21,6 @@
     Check all usage of CFG and CFG> too
 
 <br>
-<h2 align="center"> Waveshare RP2040-Zero </h2>
-Uses only 3.5mA with the PLL and system clock on 48MHz.
-The USB-CDC is still functioning and all timing stays correct.
+<h2 align="center"> Waveshare or other RP2040-Zero boards on a experimenters kit</h2>
 
-<br><br>
-<img alt="RP2040-Zero" src="../RP2040-mini-kit8" />
+<img alt="RP2040-Zero" src="../Pics/RP2040-mini-kit.jpg" />
