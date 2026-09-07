@@ -38,8 +38,3 @@ The file <b>boot-nof4b.f</b> is the secundairy boot routine. It is used to gener
             Optional: RAMBORDER XXXX + BOOT1
 
     Check all usage of CFG and CFG> too
-
-<h1 align="center"> Waveshare RP2350-PiZero </h1>
-Uses only 3.5mA with the PLL and system clock on 48MHz and about 1.5mA on with the system clock on 16MHz.
-The USB-CDC is still functioning and all timing stays correct.
-<br>
