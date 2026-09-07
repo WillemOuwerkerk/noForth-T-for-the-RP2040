@@ -3,7 +3,7 @@
 noForth t for the RP2040 sources and examples.
 There will be more examples. The UF2 versions with library are already quite complete!
 
-<br>These sources are here to document noForth t, and the hardware examples are there to learn how to use the the RP2040.
+These sources are here to document noForth t, and the hardware examples are there to learn how to use the the RP2040.
 All code should run on noForth t for the RP2040 solo & duo from version 251010 onwards. More info on noForth, click the link below.
 
 <p align="center">
