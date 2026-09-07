@@ -22,5 +22,4 @@ See the [library content documentation](../Pics/library%20V2%20for%20RP2040%20a%
 <br>
 <h2 align="center"> RP2040 led matrix board </h2>
 Has a WS2812B led matrix of 5x5 leds, 4 Mbyte flash and a USB-C connector.
-<br><br>
-<img alt="RP2040-Matrix" src="../RP2040-led-matrix" />
+<br><img alt="RP2040-Matrix" src="../Pics/RP2040-led-matrix.jpg" />
