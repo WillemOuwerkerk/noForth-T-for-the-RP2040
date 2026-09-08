@@ -3,25 +3,25 @@
 **Single core meta:**
 - Start Win32Forth
 - Select the folder: Meta-solo
-- include T-meta-2026-jul28.f
-- include T-targ-2350aug17a.f
+- include T-meta-may17.f
+- include T-targ-25sept25.f
     - Type **+** key (or - key for a version without vocabularies)
     - Type **.** key
           
 The noForth T UF2 file is ready with the current date in the
-filename, it includes sboot-nof4b.bin & the generated binary
-example: noforth t RP2350 solo 260829.uf2
+filename, it includes sboot-nof2.bin & the generated binary
+example: noforth t RP2040 solo 251010.uf2
 
 
 Note the meta compiler uses these files:
-- noForth-T-asm-M33.f
+- noForth-T-asm.f
 - RP2040-DAS.f
-- T-meta-2026-jul28.f
-- T-targ-2350aug17a.f
+- T-meta-may17.f
+- T-targ-25sept25.f
 - boot-nof4b.f
 - boot-nof4b.bin
 
-The file <b>boot-nof4b.f</b> is the secundairy boot routine. It is used to generate <b>boot-nof4b.bin</b>.
+The file <b>boot-nof2.f</b> is the secundairy boot routine. It is used to generate <b>boot-nof2.bin</b>.
 
 
 **Take care:**
