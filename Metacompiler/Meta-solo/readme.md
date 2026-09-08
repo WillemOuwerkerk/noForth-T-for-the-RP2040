@@ -18,8 +18,8 @@ Note the meta compiler uses these files:
 - RP2040-DAS.f
 - T-meta-may17.f
 - T-targ-25sept25.f
-- boot-nof4b.f
-- boot-nof4b.bin
+- boot-nof2.f
+- boot-nof2.bin
 
 The file <b>boot-nof2.f</b> is the secundairy boot routine. It is used to generate <b>boot-nof2.bin</b>.
 
