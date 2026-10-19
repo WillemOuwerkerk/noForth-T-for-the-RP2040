@@ -1329,6 +1329,7 @@ chapter .CFG
 need [if]
 v: inside
 need >nfa
+
 v: also inside
     0 cfg @+  H-H  cr .( Clock = ) dm u.  .( MHz )  hx FF and >R
     5 cfg @ ' noop = [if]  ( Default configuration? )
