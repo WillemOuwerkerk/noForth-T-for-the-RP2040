@@ -311,27 +311,43 @@ cr .( Test S? ) s? .
 %%
 
 chapter 48MHZ
-dm 48       0 cfg 2 +  h!   \ Set frequency in MHz
-4 cfg @ abs 4 cfg !         \ Make sure to (re)start the second image
-config                      \ Test new configuration
+hx D000,0000 @ 0= [if]
+    dm 48       0 cfg 2 +  h!   \ Set frequency in MHz
+    4 cfg @ abs 4 cfg !         \ Make sure to (re)start the second image
+    config                      \ Test new configuration
+[else]
+     cr .( For use on core-0 only! )
+[then]
 %%
 
 chapter 125MHZ
-dm 125      0 cfg 2 +  h!   \ Set frequency in MHz
-4 cfg @ abs 4 cfg !         \ Make sure to (re)start the second image
-config                      \ Test new configuration
+hx D000,0000 @ 0= [if]
+    dm 125      0 cfg 2 +  h!   \ Set frequency in MHz
+    4 cfg @ abs 4 cfg !         \ Make sure to (re)start the second image
+    config                      \ Test new configuration
+[else]
+     cr .( For use on core-0 only! )
+[then]
 %%
 
 chapter 132MHZ
-dm 132      0 cfg 2 +  h!   \ Set frequency in MHz
-4 cfg @ abs 4 cfg !         \ Make sure to (re)start the second image
-config                      \ Test new configuration
+hx D000,0000 @ 0= [if]
+    dm 132      0 cfg 2 +  h!   \ Set frequency in MHz
+    4 cfg @ abs 4 cfg !         \ Make sure to (re)start the second image
+    config                      \ Test new configuration
+[else]
+     cr .( For use on core-0 only! )
+[then]
 %%
 
 chapter 250MHZ
-dm 250      0 cfg 2 +  h!   \ Set frequency in MHz
-4 cfg @ abs 4 cfg !         \ Make sure to (re)start the second image
-config                      \ Test new configuration
+hx D000,0000 @ 0= [if]
+    dm 250      0 cfg 2 +  h!   \ Set frequency in MHz
+    4 cfg @ abs 4 cfg !         \ Make sure to (re)start the second image
+    config                      \ Test new configuration
+[else]
+     cr .( For use on core-0 only! )
+[then]
 %%
 
 
